@@ -1,0 +1,9 @@
+Lunar QP
+Copyright 2026 mraad
+
+The QP controller and demonstration originated in the quadratic-programming
+research worktree of https://github.com/mraad/lunar-rl (Apache-2.0).
+The VanillaJS application and extracted environment helpers share their origin
+with https://github.com/mraad/lunar-mpc (Apache-2.0).
+Evaluator imports and packaging were modified for standalone use on 2026-09-08.
+This package has an independent Git history and no dependency on either project.
