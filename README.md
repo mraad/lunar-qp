@@ -13,6 +13,16 @@ This repository has its own Git history, package and uv environment. No RL
 checkpoint, PyTorch installation, or sibling repository is required. The
 original RL project remains available independently.
 
+## Showcase
+
+[![QP MPC landing after an engine-power loss](docs/showcase.gif)](docs/showcase.mp4)
+
+This is an actual QP-controller run. At two seconds the main engine loses 30%
+of its power; OSQP continues producing fractional plans and the pulse allocator
+turns each first-step request into a legal discrete action. Click the preview
+for the MP4. Recreate both files with `uv run python scripts/record_showcase.py`;
+encoding requires `ffmpeg`.
+
 ## Related projects
 
 Three complementary LunarLander control experiments:
